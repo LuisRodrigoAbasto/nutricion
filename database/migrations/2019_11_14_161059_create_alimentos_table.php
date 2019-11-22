@@ -17,13 +17,13 @@ class CreateAlimentosTable extends Migration
             $table->bigIncrements('id');
             $table->string('nombre',50);
             $table->decimal('calorias',8,2);
-            $table->string('unidad_calorias',10);
+            // $table->string('unidad_calorias',10);
             $table->decimal('grasa',8,2);
-            $table->string('unidad_grasa',10);
+            // $table->string('unidad_grasa',10);
             $table->decimal('proteina',8,2);
-            $table->string('unidad_proteina',10);
+            // $table->string('unidad_proteina',10);
             $table->decimal('carbohidrato',8,2);
-            $table->string('unidad_carbohidrato',10);
+            // $table->string('unidad_carbohidrato',10);
             // $table->timestamps();
         });
     }

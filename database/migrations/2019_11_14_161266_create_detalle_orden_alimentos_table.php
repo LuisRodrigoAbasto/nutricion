@@ -15,6 +15,8 @@ class CreateDetalleOrdenAlimentosTable extends Migration
     {
         Schema::create('detalle_orden_alimentos', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('cantidad',50);
+            $table->string('porcion',50);
             // $table->timestamps();
         });
     }
