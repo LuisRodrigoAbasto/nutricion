@@ -15,13 +15,15 @@ class CreateDietasTable extends Migration
     {
         Schema::create('dietas', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->unsignedBigInteger('id_usuario');
             $table->date('fecha_inicio');
             $table->date('fecha_final');
             $table->string('meta',50);
             $table->decimal('peso',8,2)->nullable();
             $table->date('tiempo');
             $table->string('tipo',50);
-
+            $table->boolean('estado')->default(1);
+            $table->foreign('id_usuario')->references('id')->on('usuarios');
             // $table->timestamps();
         });
     }

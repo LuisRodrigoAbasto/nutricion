@@ -15,6 +15,7 @@ class CreateDetalleEntrenamientosTable extends Migration
     {
         Schema::create('detalle_entrenamientos', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->boolean('estado')->default(1);
             $table->timestamps();
         });
     }

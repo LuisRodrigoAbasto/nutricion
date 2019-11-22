@@ -17,6 +17,7 @@ class CreateOrdenAlimentosTable extends Migration
             $table->bigIncrements('id');
             $table->date('fecha');
             $table->string('tipo');
+            $table->boolean('estado')->default(1);
             // $table->timestamps();
         });
     }

@@ -15,6 +15,7 @@ class CreateEjerciciosTable extends Migration
     {
         Schema::create('ejercicios', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->boolean('estado')->default(1);
             // $table->timestamps();
         });
     }

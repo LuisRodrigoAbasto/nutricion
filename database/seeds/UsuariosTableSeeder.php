@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Usuario;
+use App\User;
 
 class UsuariosTableSeeder extends Seeder
 {
@@ -12,7 +12,7 @@ class UsuariosTableSeeder extends Seeder
      */
     public function run()
     {
-        Usuario::create([
+        User::create([
             'nombre'=>'Luis Rodrigo',
             'apellido'=>'Abasto',
             'fecha_nacimiento'=>'2000/01/01',
