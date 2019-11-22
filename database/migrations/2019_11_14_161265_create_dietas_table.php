@@ -17,7 +17,11 @@ class CreateDietasTable extends Migration
             $table->bigIncrements('id');
             $table->date('fecha_inicio');
             $table->date('fecha_final');
-            $table->string('nombre',50);
+            $table->string('meta',50);
+            $table->decimal('peso',8,2)->nullable();
+            $table->date('tiempo');
+            $table->string('tipo',50);
+
             // $table->timestamps();
         });
     }
