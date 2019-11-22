@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Entrenamiento extends Model
 {
     //
+    public $timestamps = false;
 }
