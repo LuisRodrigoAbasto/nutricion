@@ -18,7 +18,7 @@ class CreateDietasTable extends Migration
             $table->date('fecha_inicio');
             $table->date('fecha_final');
             $table->string('nombre',50);
-            $table->timestamps();
+            // $table->timestamps();
         });
     }
 

@@ -23,7 +23,7 @@ class CreateUsuariosTable extends Migration
             $table->float('altura', 8, 2);
             $table->string('email')->unique();
             $table->string('password');
-            $table->timestamps();
+            // $table->timestamps();
         });
     }
 
