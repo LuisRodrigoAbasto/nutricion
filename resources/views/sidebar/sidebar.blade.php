@@ -8,10 +8,10 @@
                     Mantenimiento
                 </li>
                 <li class="nav-item nav-dropdown">
-                    <a class="nav-link nav-dropdown-toggle" href="#"><i class="nav-icon icon-bag"></i> Almacén</a>
+                    <a class="nav-link nav-dropdown-toggle" href="#"><i class="nav-icon icon-bag"></i> Alimento</a>
                     <ul class="nav-dropdown-items">
                         <li class="nav-item">
-                            <a class="nav-link" href="formulas"><i class="nav-icon icon-grid"></i> Formulas</a>
+                            <a class="nav-link" href="alimento"><i class="nav-icon icon-grid"></i> Alimento</a>
                         </li>
                         <li class="nav-item">
                                 <a class="nav-link" href="productos"> <i class="nav-icon fa fa-product-hunt"></i> Productos</a>
